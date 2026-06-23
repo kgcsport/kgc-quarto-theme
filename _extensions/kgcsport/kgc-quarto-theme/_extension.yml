@@ -1,0 +1,8 @@
+title: KGC Quarto Theme
+author: Kyle Coombs
+version: 1.0.0
+quarto-required: ">=1.4.0"
+contributes:
+  formats:
+    revealjs:
+      theme: preamble-lectures.scss

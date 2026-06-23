@@ -1,0 +1,44 @@
+/*-- scss:defaults --*/
+
+$body-bg: #ffffff;
+$body-color: #191919;
+$link-color: #42affa;
+
+/*-- scss:rules --*/
+
+.reveal .slide blockquote {
+  border-left: 3px solid $text-muted;
+  padding-top: 0.25em;
+  margin-bottom: 0.05em !important;
+}
+
+/*-- scss:defaults --*/
+
+$secondary-color: #951829;
+$primary-color: #641A2B;
+$text-color: #191919;
+
+$fontsize: 9pt;
+
+.job-picker-slide .shiny-input-container {
+  margin-bottom: 0.3rem;
+}
+.job-picker-slide label {
+  margin-bottom: 0.1rem;
+}
+.job-picker-slide .selectize-control,
+.job-picker-slide .form-control {
+  font-size: 0.9em;
+}
+.job-picker-slide .dataTables_wrapper {
+  font-size: 0.85em;
+}
+
+.full-page-iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  margin: 0;
+  padding: 0;
+}
